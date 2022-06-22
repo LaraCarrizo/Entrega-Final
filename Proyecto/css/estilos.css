@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    background-image:url(../imagen/curriculum-degradado-04.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Roboto Condensed;
+    font-size: 80%;
+    color: rgb(18, 48, 61);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: right;
+    color: rgb(18, 48, 61);
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+h1 { font-family: Roboto Condensed;
+    font-weight: 800;
+    font-size: 8.14em;
+    margin-top: 12%;
+    margin-left: 4%;
+}
+
+p {
+    font-family: Roboto Condensed;
+    font-weight: 400;
+    font-size: 2.3em;
+    margin-left: 4%;
+
+}
+nav {
+    font-family: Roboto Condensed;
+    font-size: 80%;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1em;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media (max-width:768px) {
+
+    body {font-size: 80%}
+    
+    }
+
+
+
